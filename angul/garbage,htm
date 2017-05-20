@@ -1,0 +1,52 @@
+<!--
+	 <form class="form-horizontal" role="form"  method="post" name ="addEventForm" id="addEventForm" ng-submit="submitForm(eventForm)" >
+     <div class="form-group">
+        <label for="firstName" class="col-lg-3 control-label">First Name</label>
+        <div class="col-lg-6">
+          <input type="text" class="form-control" name="firstName" id="firstName" placeholder="First Name" ng-model="eventForm.firstName">
+        </div>
+      </div> 
+      <div class="form-group">
+        <label for="lastName" class="col-lg-3 control-label">Last Name</label>
+        <div class="col-lg-6">
+          <input type="text" class="form-control" name="lastName" id="lastName" placeholder="Last Name" ng-model="eventForm.lastName" >
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="email" class="col-lg-3 control-label">Email</label>
+        <div class="col-lg-6">
+          <input type="email" class="form-control" name="email" id="email" placeholder="Email" ng-model="eventForm.email" >
+        </div>
+      </div>
+
+
+      <div class="form-group">
+        <label for="cars" class="col-lg-3 control-label">Cars</label>
+        <div class="col-lg-6">
+
+		 <select name="cars" class="form-control" id="cars" ng-model="eventForm.cars" >
+		  <option value="volvo">Volvo</option>
+		  <option value="saab">Saab</option>
+		  <option value="fiat">Fiat</option>
+		  <option value="audi">Audi</option>
+		</select>
+
+        </div>
+      </div>
+
+
+
+      <div class="form-group">
+        <div class="col-lg-offset-3 col-lg-10">
+          <button type="submit" class="btn btn-success">Save</button> <a href="<?= base_url();?>index.php/home" class="btn btn-primary">Cancel</a>
+        </div>
+      </div>
+
+       <div class="form-group">
+       	{{eventForm|json}}
+      </div>
+
+
+    </form>
+-->
